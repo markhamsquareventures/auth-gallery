@@ -1,4 +1,4 @@
-# Salt
+# Pepper
 
 ## Tailwind Configuration
 

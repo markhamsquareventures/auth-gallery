@@ -16,9 +16,9 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class="font-figtree text-neutral-950 antialiased">
+<body class="font-sans text-neutral-950 antialiased">
     <div class="min-h-screen grid grid-cols-10 bg-lime-100">
-        <div class="col-span-10 lg:col-span-5 xl:col-span-4 p-6 2xl:px-12 flex flex-col items-center">
+        <div class="col-span-10 lg:col-span-5 xl:col-span-4 p-4 2xl:px-12 flex flex-col items-center gap-6">
             <div class="w-full sm:max-w-md">
                 <a href="/">
                     <x-cardamom.application-logo class="w-20 h-20" />
@@ -27,7 +27,7 @@
 
             <div class="w-full flex-1 flex flex-col justify-center items-center">
                 <div
-                    class="w-full sm:max-w-md mt-6 p-10 bg-white shadow-cardamom overflow-hidden border-2 border-neutral-950 rounded-md">
+                    class="w-full sm:max-w-md p-8 bg-white shadow-[5px_5px_0_rgba(0,0,0,1)] overflow-hidden border-2 border-neutral-950 rounded-md">
                     {{ $slot }}
                 </div>
             </div>
